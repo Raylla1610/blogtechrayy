@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #e6e6e6;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.branco {
+    color: white;
+}
+
+.header {
+    background-color: #004aad;
+    padding: 15px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #000000;
+}
+
+.post p {
+    margin: 10px 0;
+
+}
+
+.menu,
+.logo { padding: 10px;
+
+}
+
+.menu a
+.menu a:visited {
+    color: white;
+    text-decoration: none;
+    padding: 8px 12px;
+
+}
+
+a, a:visited {
+    text-decoration: none;
+    padding: 8px 12px;
+}
+
+a:hover {
+    background-color: #004aad;
+    color: black;
+}
+
+.container {
+    width: 920px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.posts {
+    width: 660px;
+    float: left;
+}
+
+.post {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: #004aad;
+}
+
+.data-post {
+    font-size: 0.8em;
+    margin-bottom: 15px;
+    display:block;
+
+}
+
+.barra-lateral {
+    width: 240px;
+    background-color: white;
+    float: right;
+}
+
+.conteudo-lateal {
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.conteudo-lateral h3 {
+    background-color: #004aad;
+    color: white;
+    padding: 5px;
+}
+
+.post-destaque {
+    font-size: 0.8em;
+    padding: 5px;
+    border-bottom: 1px solid lightgrey;
+}
+
+.post-destaque:last-child {
+    border: none;
+}
+
+.footer {
+    clear: both;
+    background-color: #004aad;
+    padding: 15px;
+}
+
+.footer p {
+    color: white;
+    text-align: center;
+}
+
+.post_conteudo {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.redes__botao{
+    background-color: #000000;
+        color: white; 
+        padding: 15px 32px; 
+        text-align: center; 
+        text-decoration: none; 
+        display: inline-block; 
+        font-size: 20px; 
+        margin: 6px 4px; 
+        cursor: pointer; 
+        border-radius: 10px; 
+}
+
+.botao2 {
+        background-color: #000000; /* Cor de fundo */
+        border: none; /* Remove a borda */
+        color: white; /* Cor do texto */
+        padding: 15px 32px; /* Espaçamento interno */
+        text-align: center; /* Alinhamento do texto */
+        text-decoration: none; /* Remove decoração de texto */
+        display: inline-block; /* Exibe como um elemento de bloco */
+        font-size: 16px; /* Tamanho da fonte */
+        margin: 6px 4px; /* Margem externa */
+        cursor: pointer; /* Cursor ao passar o mouse */
+        border-radius: 10px; /* Borda arredondada */
+}
+
+.redes__botao:hover {
+    background-color: #004aad;
+    color: black;
+}
