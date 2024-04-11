@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.eletronica img {
+    width: 70%;
+    height: 70%;
+    object-fit: cover;
+}
+/* BOTOES */
+.eletronica button,
+.eletronica button {
+    outline: none;
+    border: none;
+    background-color: black;
+    color: white;
+    padding: .75rem 0;
+    width: 148px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.eletronica__item button {
+    outline: none;
+    border: none;
+    background-color: black;
+    color: white;
+    margin-right: 1rem;
+    text-align: center;
+    padding: .5rem 0;
+    width: 80px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.eletronica__botao button:hover,
+.eletronica__botao button:hover,
+.eletronica__item button:hover,
+.eletronica__atracao button:hover {
+    background-color: #004aad;
+}
